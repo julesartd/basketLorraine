@@ -1,0 +1,314 @@
+* {
+	margin :0;
+	padding : 0;
+	font-family: 'Poppins', sans-serif;
+	
+	
+}
+
+body {
+	
+	background-color : rgb(13,110,253);
+	
+}
+h1 {
+	color: aliceblue;
+	font-family: 'Poppins', sans-serif;
+	text-shadow:  0 0 4px aliceblue;
+
+	
+}
+
+ 
+#listArb {
+	margin-bottom: -40px;
+}
+#navigation { 
+	text-align: center;
+	width: 100%;
+	height: 1920px;
+
+	margin-top: 0px;
+	background-color : rgba(13,110,253,255);	
+	
+	
+	
+} 
+
+td{
+	width: 20px;
+}
+
+
+
+table, th, td {
+	border: 1px solid;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	
+	white-space: nowrap;
+	
+	
+  }
+
+
+
+#formCo {
+	text-align: center;
+}
+
+#en {
+	text-align: center;
+	margin-top: 30px;
+	
+}
+
+
+#AjoutArbitre {	
+	width:600px;
+	height:1060px;
+	background: rgba(33,37,41,255);
+	border-radius:8px;
+	color: aliceblue;
+	margin:calc(50vh - 220px) auto;
+	padding:20px 30px;
+	max-width:calc(100vw - 40px);
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+	position:relative;
+	font-size: 15px;
+	margin-top:0px;
+	margin-bottom: 0px;	
+	
+}
+
+
+#logo>a>img{
+    position : relative;
+  
+}
+
+
+
+
+#msgErr {
+	position :absolute;
+	right: 20px;
+	
+}
+
+
+.menu {
+    display: flex;                /* Transformation en flexbox */
+    padding:0;                    /* Suppression des marges internes */
+    justify-content: space-around;/* Alignements des liens dans le menu */
+	
+}
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+  
+}
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 1px;               /* Marges externes */
+    padding: 8px;            /* Marges internes */
+    text-align: center;           /* Centrage du texte */   
+	background-color:#0d6efd;   /* Arrière-plan */
+    color: white;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+      /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+    
+    transition: all 1s ;          /* Ajout des effets de transition */
+	margin-bottom: 25px;
+}
+.menu a.actif {    
+    background-color: #000 ; 
+ 
+}
+.menu a:hover,
+.menu a:hover.actif{
+	background: rgba(33,37,41,255);
+    color:white;
+    border-color: #ffe843;
+}
+
+
+
+#entete {
+	background-color:rgba(13,110,253,255); 
+	top :0;
+	padding-bottom: 200px;
+	height: 110px;
+	
+	
+}
+
+#connexion {
+margin-left: 500px;
+margin-right: 500px;
+
+margin-bottom: 100px;
+
+padding: 10px;
+padding-top: 120px;
+
+}
+.co {
+	background: rgba(33,37,41,255);
+	padding: 30px;
+	padding-top: 25px;
+	color: aliceblue;
+
+	border-radius: 8px;	
+}
+
+#btnCo {
+	margin-top :30px;
+}
+
+a.btnm {
+display:flex;
+margin-top: 10px;
+text-decoration: none;
+padding: 10px 30px;
+background-color: transparent; 
+color:limegreen;
+border: limegreen;
+border-style: inherit;
+border-radius: 2px;
+}
+
+a.btns {
+display:flex;
+margin-top: 10px;
+text-decoration: none;
+padding: 10px 30px;
+background-color: transparent; 
+color: firebrick;;
+border:firebrick;
+border-style: inherit;
+border-radius: 2px;
+}
+
+a.btnm:hover {
+transition: 0.8s;
+background-color: limegreen;
+color:aliceblue;
+transform: scale(1.05,1.05);
+text-shadow:  0 0 1px aliceblue;
+}
+
+a.btns:hover {
+transition: 0.8s;
+background-color: firebrick;
+color:aliceblue;
+transform: scale(1.05,1.05);
+text-shadow:  0 0 1px aliceblue;
+}
+
+.record {
+display:flex;
+text-decoration: none;
+padding: 10px 30px;
+background-color: transparent; 
+color:goldenrod;
+border:goldenrod;
+border-style: inherit;
+border-radius: 2px;
+}
+
+.record:hover {
+transition: 0.8s;
+background-color: goldenrod;
+color:aliceblue;
+transform: scale(1.05,1.05);
+text-shadow:  0 0 1px aliceblue;
+}
+
+input.btna {
+text-decoration: none;
+padding: 10px 30px;
+background-color: transparent; 
+color:deepskyblue;
+border: deepskyblue;
+border-style:groove;
+border-radius: 2px;
+}
+	
+input.btnc {
+text-decoration: none;
+padding: 10px 30px;
+background-color: transparent; 
+color: firebrick;;
+border:firebrick;
+border-style:groove;
+border-radius: 2px;
+}
+
+input.btna:hover {
+transition: 0.8s;
+background-color: deepskyblue;
+color:aliceblue;
+transform: scale(1.05,1.05);
+text-shadow:  0 0 1px aliceblue;
+	}
+	
+input.btnc:hover {
+transition: 0.8s;
+background-color: firebrick;
+color:aliceblue;
+transform: scale(1.05,1.05);
+text-shadow:  0 0 1px aliceblue;
+}
+
+
+
+#msgValid {
+	background: rgba(33,37,41,255);
+}
+
+#ModifArbitre {
+	
+	overflow-x:scroll;
+	margin-right: 20px;
+	margin-left: 10px;
+	background-color:  rgba(33,37,41,255);
+	padding-top: 50px;
+	
+}
+
+
+#TableauTitre{
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+	margin: 10px;
+}
+
+#TableauInformation {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+	margin: 10px;
+	
+}
+
+#InfoMatch {
+	overflow-x:scroll;
+	margin-right: 20px;
+	margin-left: 10px;
+	background-color:  rgba(33,37,41,255);
+	padding-top: 50px;
+}
+
+#formDate {
+	margin-top:150px;
+}
+
+img {
+	width: 50%;
+}
